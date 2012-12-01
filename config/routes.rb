@@ -4,7 +4,9 @@ VeronaDev::Application.routes.draw do
 
   resources :users
 
-
+  #index.html in public folder have higher precedence
+  #'users' is refer to user_controller, #index refer to index function
+  root :to => 'users#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
