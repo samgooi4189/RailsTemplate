@@ -14,6 +14,12 @@ end
 #	gem 'capybara', '1.1.2'
 #end
 
+#bootstrap gem
+gem 'bootstrap-sass'
+
+#devise gem for user authentication
+gem 'devise'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
