@@ -1,13 +1,10 @@
 <% if user_signed_in? %>
 <% else %>
 	<div class="hero-unit">
-    <h1>Venona: Explore Your Language</h1>
-    <p>Language is transforming the world, join us to foster the revolution!</p>
+    <h1>Gmaker: Game maker on the web</h1>
+    <p>No install, no hassle, and works for all!</p>
     <p>
     <%= link_to("Signup!", new_user_registration_path, :class => "btn btn-primary btn-large") %>
     </p>
-    </div>
-    <div class="span8 offset1">
-		<%= image_tag "friends-front.png", :alt => "harmony laugh",  :class => "img-rounded" %>
-    </div>
+	 </div>
 <% end %>

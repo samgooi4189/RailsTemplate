@@ -50,4 +50,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 group :production do
         gem 'pg'
+
+gem 'chingu'
+gem 'gosu'
 end

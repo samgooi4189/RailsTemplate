@@ -33,6 +33,10 @@ GEM
     bootstrap-sass (2.2.1.1)
       sass (~> 3.2)
     builder (3.0.4)
+    chingu (0.8.1)
+      crack
+      gosu (>= 0.7.25)
+      rest-client
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -40,6 +44,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
+    crack (0.3.2)
     devise (2.1.2)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -49,6 +54,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    gosu (0.7.45)
     hike (1.2.1)
     i18n (0.6.1)
     journey (1.0.4)
@@ -91,6 +97,8 @@ GEM
     rake (10.0.2)
     rdoc (3.12)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec (2.11.0)
       rspec-core (~> 2.11.0)
       rspec-expectations (~> 2.11.0)
@@ -134,8 +142,10 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  chingu
   coffee-rails (~> 3.2.1)
   devise
+  gosu
   jquery-rails
   pg
   rails (= 3.2.9)
