@@ -9,7 +9,7 @@ Devise.setup do |config|
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
 
-  # ==> ORM configuration
+	config.secret_key = '45127a5996c2b8dbaf366be27e1b37e4c76064efe6f5b20764337746865c3f00797721ac659029c1bf574ab7df9fc360ada38c61b4181bc63fb3f0212f2a93fc'  # ==> ORM configuration
   # Load and configure the ORM. Supports :active_record (default) and
   # :mongoid (bson_ext recommended) by default. Other ORMs may be
   # available as additional gems.

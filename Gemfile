@@ -5,14 +5,14 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
+#group :development do
 	gem 'sqlite3'
 	gem 'rspec-rails', '2.11.0'
-end
-
-#group :test do
-#	gem 'capybara', '1.1.2'
 #end
+
+group :test do
+	gem 'capybara', '1.1.2'
+end
 
 #bootstrap gem
 gem 'bootstrap-sass'
@@ -48,9 +48,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-group :production do
-        gem 'pg'
+#group :production do
+#        gem 'pg'
 
-gem 'chingu'
-gem 'gosu'
-end
+#gem 'chingu'
+#gem 'gosu'
+#end
